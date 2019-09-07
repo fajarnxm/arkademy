@@ -1,0 +1,2 @@
+select name.name, work.name,category.salary from work inner join 
+(category inner join name on name.id=category.id) on category.id=work.id;
